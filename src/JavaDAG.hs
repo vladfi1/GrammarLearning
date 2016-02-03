@@ -22,7 +22,7 @@ import Data.Vinyl
 import Data.Singletons.Prelude hiding (And)
 
 import Data.Default
-import DefaultM
+import Misc.DefaultM
 
 import GrammarNNDAG
 import JavaGeneric
@@ -33,8 +33,8 @@ import TensorAccelerate
 import TensorDAG
 import DAGIO
 --import Random
-import List
-import Constraints as C
+import Misc.List
+import Misc.Constraints as C
 
 import Control.Monad
 import Data.IORef

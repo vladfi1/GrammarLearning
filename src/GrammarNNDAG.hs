@@ -24,19 +24,19 @@ import Data.Vinyl hiding (Dict)
 import Data.Singletons.Prelude hiding (All, And)
 import Data.Singletons.Prelude.List (Length)
 
-import Utils
-import List
+import Misc.Utils
+import Misc.List
 import Grammar
 import GenericTensor
 import TensorDAG
 import Gradients
 import DAGIO
-import VinylUtils
-import Random
-import qualified Constraints as C
+import Misc.VinylUtils
+import Misc.Random
+import qualified Misc.Constraints as C
 
 import Data.Default
-import DefaultM
+import Misc.DefaultM
 
 import Numeric.LinearAlgebra (Numeric)
 import qualified Data.Vector.Storable as Vector
